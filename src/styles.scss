@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+$roxo: #7c24c4;
+$roxo-escuro: #3c0e56;
+$roxo-claro: #e5a8f6;
+$branco: #fcfcfc;
+$branco-cinza: #a499b9;
+$preto: #000;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alexandria", serif;
+}
