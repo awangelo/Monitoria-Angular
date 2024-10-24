@@ -1,0 +1,27 @@
+@import 'styles';
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background-color: $roxo;
+  width: 100%;
+
+  .link-github, .link-criadores, .link-instagram {
+    font-size: 18px;
+    text-decoration: none;
+    color: $branco;
+    transition: color 0.3s ease, box-shadow 0.3s ease;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  .right-links {
+    display: flex;
+    gap: 20px;
+  }
+}
