@@ -1,10 +1,9 @@
 <header>
-    <nav>
-      <ul>
-        <li><a routerLink="/">Home</a></li>
-        <li><a routerLink="/comprar">Comprar</a></li>
-        <li><a routerLink="/criadores">Criadores</a></li>
-      </ul>
-    </nav>
-  </header>
-  
+  <div class="header-container">
+    <img [src]="logoPath" alt="Logo" class="logo">
+    <div class="right-links">
+      <a routerLink="/" class="nav-links">Início</a>
+      <a routerLink="/criadores" class="nav-links">Criadores</a>
+    </div>
+  </div>
+</header>
